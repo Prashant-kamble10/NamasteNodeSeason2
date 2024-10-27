@@ -3,6 +3,7 @@ const express = require("express")
 const app = express()  // practical using express
 
 // dyanamic api
+// http://localhost:5000/user/108
 // /:  => means dynamic route
 app.get("/user/:userId", (req, res)=>{
    console.log(req.params)
