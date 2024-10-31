@@ -1,6 +1,6 @@
 // play with routes and route extension ex. /test, /, /test/2.
 
-// order odf the routesmatter a lot
+// order of the routes matter a lot
 
 // write logic to handle GET, POST, PATCH, DELETE APIs call and test them on postman.
 

@@ -6,7 +6,7 @@ const app = express()  // practical using express
 // http://localhost:5000/user/108
 // /:  => means dynamic route
 app.get("/user/:userId", (req, res)=>{
-   console.log(req.params)
+   console.log(req.params)                            // {108}
    res.send("Data saved to Database successfully")
 })
 

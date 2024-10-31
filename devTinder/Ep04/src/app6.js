@@ -7,7 +7,7 @@ const app = express()  // practical using express
 // http://localhost:5000/user?userId=101&password="testing"
 // query params or user params
 app.get("/user", (req, res)=>{
-   console.log(req.query)
+   console.log(req.query)                 //  { userId: 101 }
    res.send("Data saved to Database successfully")
 })
 

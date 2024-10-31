@@ -15,6 +15,10 @@ app.use("/test",(req, res)=>{
 // /test == /test/hello 
 // /test !== /testhello
 
+app.use("/test/hello",(req, res)=>{
+   res.send("Namaste from the /test")
+})
+
 // /test/hello => Namaste from the /test => OK
 // /testhello => cannot get testhello => Not OK
 

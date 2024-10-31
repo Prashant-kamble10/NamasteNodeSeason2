@@ -4,11 +4,11 @@ const app = express()  // practical using express
 
 // see the sequence of the route and their behavior, IMP order of writing the routes matter alot
 
-app.use("/", (req, res)=>{
+app.get("/", (req, res)=>{
    res.send("Namaste from the /")
 })
 
-app.use("/test",(req, res)=>{
+app.get("/test",(req, res)=>{
    res.send("Namaste from the /test")
 })
 
@@ -24,11 +24,11 @@ app.use("/test",(req, res)=>{
 // localhost:5000/test => Namaste from the /
 
 
-app.use("/home",(req, res)=>{
+app.get("/home",(req, res)=>{
    res.send("Namaste from the /home")
 })
 
-app.use("/profile",(req, res)=>{
+app.get("/profile",(req, res)=>{
    res.send("Namaste from the /profile")
 })
 

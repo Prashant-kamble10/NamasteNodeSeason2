@@ -6,6 +6,16 @@
 
 "~4.19.2" = tilde, auto upda' patch version
 
+BETTER to use app.get() for routing, rather than using app.use()
+
+app.get() matches exact path,
+app.use() not sure to match path it can match subpath also.
+
+app.get(): This method in Express is used for handling GET requests for an exact path. It only matches requests where the URL path is exactly what you specify. For instance, if you write app.get('/home', callback), it will only respond to requests made to /home and not to any sub-paths like /home/about.
+
+app.use(): This is a middleware function that is more flexible with path matching. It can handle not only the exact path but also any sub-paths starting with the specified path. So, if you write app.use('/home', callback), it will match /home, /home/about, /home/contact, and any other route that starts with /home.
+
+This flexibility with app.use() makes it particularly useful for setting up middleware that should apply to a group of routes (like authentication or logging) rather than a single, specific path.
 
 
 

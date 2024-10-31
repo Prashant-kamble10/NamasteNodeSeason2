@@ -19,6 +19,8 @@ app.get("/user", (req, res)=>{
 app.post("/user", (req, res)=>{
    res.send("Data saved to Database successfully")
 })
+
+
 // app.post("Here Regex can also come", (req, res)=>{
 //    res.send("Data saved to Database successfully")
 // })
