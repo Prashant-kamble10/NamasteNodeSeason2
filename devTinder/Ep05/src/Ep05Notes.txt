@@ -1,0 +1,12 @@
+- multiple Route handlers - play with the code
+- next()
+- next function and errors along with res.send()
+- app.use("/user, RH 1, [RH 2, RH 3], RH 4.....RH n") 
+
+- what is middlewares? explain to non technical person to chatgpt, why do we need it.
+- How express JS basically handles request behind the scene
+- read about http status code.
+- app.use() vs app.all()
+- write a dummy auth for admmin
+- write a dummy auth for all user except /user/login
+- error handling using app.use("/", (err, req, res, next)=>{}), always write this towards the end.
