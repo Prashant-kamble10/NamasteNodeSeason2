@@ -16,7 +16,7 @@ app.post("/signup" , async (req, res)=>{
         password: "virat@123"
     }
 
-    // creating a instance of a User model
+    // creating a new instance of a User model
     const user = new User(userObj)
 try{
     await user.save()
