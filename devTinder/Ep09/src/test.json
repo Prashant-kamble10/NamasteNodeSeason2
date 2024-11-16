@@ -1,0 +1,13 @@
+{
+    "firstName" : "suryakumar",
+    "lastName" : "yadav",
+    "emailId" : "sky@india.com",
+    "password" : "surya@123",
+    "age" : 18,
+    "gender" : "m",
+    "photoUrl": "https://www.google.com/search?q=photo+url+sample",
+    "about" : "",
+    "skills" : ["JS", "TS"]
+ 
+  }
+ 

@@ -6,7 +6,7 @@
 - Add timestamps to the UserSchema
 - Add API level validation on patch request & Signup post api.
 - DATA sanitizing - Add API validation for each field.
-- Install npm i validator.
+- Install npm i validator, can be used in API validation, and schema validation.
 - Explore validator library function and Use validator functions for password, email.....
 - backend validations > frontend validations..... Importance wise.
 - NEVER TRUST req.body
