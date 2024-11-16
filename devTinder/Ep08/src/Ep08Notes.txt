@@ -1,0 +1,12 @@
+- Explore schematype options from the documentation.
+- add required, unique, lowercase, min, max, minLength, maxLength, trim.
+- Add default.
+- Create a custom validate function for gender.
+- Improve the DB schema - PUT all appropiate validations on each field in schema.
+- Add timestamps to the UserSchema
+- Add API level validation on patch request & Signup post api.
+- DATA sanitizing - Add API validation for each field.
+- Install npm i validator.
+- Explore validator library function and Use validator functions for password, email.....
+- backend validations > frontend validations..... Importance wise.
+- NEVER TRUST req.body
