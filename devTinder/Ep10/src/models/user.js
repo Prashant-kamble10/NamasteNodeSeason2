@@ -1,6 +1,7 @@
 const mongoose = require("mongoose")
 const validator = require("validator")
-
+const jwt = require("jsonwebtoken")
+const bcrypt = require("bcrypt");
 
 // if I am creating user schema that means in schema what information of user i am going to store. 
 const userSchema = new mongoose.Schema({
@@ -56,6 +57,24 @@ const userSchema = new mongoose.Schema({
         type : [String]
     }
 }, {timestamps: true})
+
+
+userSchema.methods.getJWT = async function(){
+const user = this;
+
+const token = await jwt.sign({ _id: user._id }, "DEV@Tinder$790");
+
+return token
+}
+
+userSchema.methods.validatePassword = async function(passwordInputByUser){
+    const user = this;
+    const passwordHash = user.password
+
+    const isPasswordValid = await bcrypt.compare(passwordInputByUser, passwordHash);
+
+    return isPasswordValid;
+}
 
 
 const User = mongoose.model("User" , userSchema)
