@@ -1,0 +1,69 @@
+- Explore tinder APIs
+- Create a list of all APIs you can think of in Dev tinder
+- express routes vs express router - to manage APIs efficiently.
+- Group multiple routes under respective routers
+- Read documentation for express.Router
+- Create routes folder for managing auth, profile, request routers.
+- Create authRouter, profileRouter, requestRouter
+- Import these routers in app.js
+- Create POST /logout API
+- Create PATCH / profile/edit
+- Create PATCH/profile/password API => forgot password API
+- Make you validate all data in every POST, PATCH apis. 
+
+- devTinder apiList 
+
+## authRouter
+- POST /signup
+- POST /login
+- POST /logout
+
+## profileRouter
+- GET /profile/view
+- PATCH /profile/edit
+- PATCH /profile/password  => forgot password API
+
+## connectionRequestRouter
+- POST /request/send/interested/:userId
+- POST /request/send/ignored/:userId
+- POST /request/review/accepted/:requestId
+- POST /request/review/rejected/:requestId
+
+## userRouter
+- GET /user/connections
+- GET /user/requests/received
+- GET /user/feed - gets you the profiles of other users on platform
+
+status: ignore, interested, accepted, rejected.
+
+
+
+ {
+    "firstName" : "elon",
+    "lastName" : "musk",
+    "emailId" : "elonmusk@gmail.com",
+    "password" : "QwertY@1099",
+    "gender" : "male"
+}
+ 
+
+ {
+    "firstName" : "sachin",
+    "lastName" : "tendulakr",
+    "emailId" : "tendlya@gmail.com",
+    "password" : "QwertY@1099"
+}
+
+{
+    "firstName" : "virat",
+    "lastName" : "kohli",
+    "emailId" : "virat@gmail.com",
+    "password" : "ViraT@1881"
+}
+
+{
+    "firstName" : "surya",
+    "lastName" : "kumar",
+    "emailId" : "surya@kumar.com",
+    "password" : "SuryA@1099"
+}
