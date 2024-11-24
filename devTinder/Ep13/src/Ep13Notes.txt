@@ -1,0 +1,68 @@
+- write code with proper validations for POST /request/review/:status/:requestId
+- Thought process - POST vs GET
+- Read about ref and populate
+- Create GET /user/requests/received with all the checks
+- Create GET /user/connections
+
+## userRouter
+
+- Get /user/requests/received
+- Get /user/connections
+- Get /user/feed
+
+ {
+    "firstName" : "elon",
+    "lastName" : "musk",
+    "emailId" : "elonmusk@gmail.com",
+    "password" : "QwertY@1099",
+    "gender" : "male"
+}
+ 
+{
+    "firstName" : "sachin",
+    "lastName" : "tendulakr",
+    "emailId" : "tendlya@gmail.com",
+    "password" : "QwertY@1099"
+}
+
+{
+    "firstName" : "virat",
+    "lastName" : "kohli",
+    "emailId" : "virat@gmail.com",
+    "password" : "ViraT@1881"
+}
+
+{
+    "firstName" : "surya",
+    "lastName" : "kumar",
+    "emailId" : "surya@kumar.com",
+    "password" : "SuryA@1099"
+}
+
+{
+    "firstName" : "prashant",
+    "lastName" : "kamble",
+    "emailId" : "prashant@kamble.com",
+    "password" : "PrashanT@852"
+}
+
+{
+    "firstName" : "mark",
+    "lastName" : "zuckersberg",
+    "emailId" : "mark@gmail.com",
+    "password" : "Mark@123"
+}
+
+{
+    "firstName" : "mahendra singh",
+    "lastName" : "dhoni",
+    "emailId" : "ms@gmail.com",
+    "password" : "MsDhoni@123"
+}
+
+{
+    "firstName" : "Donald",
+    "lastName" : "Trump",
+    "emailId" : "donald@gmail.com",
+    "password" : "Donald@123"
+}
