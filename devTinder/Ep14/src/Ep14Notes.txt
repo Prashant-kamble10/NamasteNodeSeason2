@@ -1,0 +1,85 @@
+- Logic for GET /feed API
+- Explore the $nin, $and, $ne and other query operators
+- pagiination
+- skip = (page-1)*limit
+
+prashant send connection request to elon, status: interested
+
+prashant send connection request to sachin, status: ignored
+
+## userRouter
+
+- Get /user/requests/received
+- Get /user/connections
+- Get /user/feed
+
+ {
+    "firstName" : "elon",
+    "lastName" : "musk",
+    "emailId" : "elonmusk@gmail.com",
+    "password" : "QwertY@1099",
+    "gender" : "male"
+}
+ 
+{
+    "firstName" : "sachin",
+    "lastName" : "tendulakr",
+    "emailId" : "tendlya@gmail.com",
+    "password" : "QwertY@1099"
+}
+
+{
+    "firstName" : "virat",
+    "lastName" : "kohli",
+    "emailId" : "virat@gmail.com",
+    "password" : "ViraT@1881"
+}
+
+{
+    "firstName" : "surya",
+    "lastName" : "kumar",
+    "emailId" : "surya@kumar.com",
+    "password" : "SuryA@1099"
+}
+
+{
+    "firstName" : "prashant",
+    "lastName" : "kamble",
+    "emailId" : "prashant@kamble.com",
+    "password" : "PrashanT@852"
+}
+
+{
+    "firstName" : "mark",
+    "lastName" : "zuckersberg",
+    "emailId" : "mark@gmail.com",
+    "password" : "Mark@123"
+}
+
+{
+    "firstName" : "mahendra singh",
+    "lastName" : "dhoni",
+    "emailId" : "ms@gmail.com",
+    "password" : "MsDhoni@123"
+}
+
+{
+    "firstName" : "Donald",
+    "lastName" : "Trump",
+    "emailId" : "donald@gmail.com",
+    "password" : "Donald@123"
+}
+
+{
+    "firstName" : "simran",
+    "lastName" : "singh",
+    "emailId" : "simran@gmail.com",
+    "password" : "Simran@123"
+}
+
+{
+    "firstName" : "rahul",
+    "lastName" : "dravid",
+    "emailId" : "rahul@gmail.com",
+    "password" : "Rahul@123"
+}
