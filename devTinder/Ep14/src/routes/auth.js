@@ -53,7 +53,7 @@ authRouter.post("/signup", async (req, res) => {
         //  Add token to cookie and send it to user
         res.cookie("token", token);
   
-        res.send("Login successfully !!!");
+        res.send(user);
       } else {
         throw new Error("Password is not correct");
       }
