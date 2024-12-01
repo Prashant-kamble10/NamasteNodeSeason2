@@ -31,6 +31,7 @@
 - Feature - Accept/Reject Connection Request
 - send/ignore the user card from the feed
 - Signup new user
+- End 2 End testing.
 
 
 body
