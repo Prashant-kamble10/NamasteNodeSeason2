@@ -29,6 +29,8 @@
 - New page - see all my connections
 - New page - see all my connections Requests
 - Feature - Accept/Reject Connection Request
+- send/ignore the user card from the feed
+- Signup new user
 
 
 body
